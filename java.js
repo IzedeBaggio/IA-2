@@ -1,4 +1,7 @@
-document.querySelector('.iniciar-btn').addEventListener('click', function() {
+const botao = document.getElementById('iniciar-bnt')
+
+
+botao.addEventListener('click', ()=>{
     // Esconde a tela inicial
     const telaInicial = document.querySelector('.tela-inicial');
     telaInicial.style.opacity = '0';
